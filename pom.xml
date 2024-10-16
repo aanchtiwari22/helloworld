@@ -6,7 +6,18 @@
     <name>helloworld</name>
     <url>http://maven.apache.org</url>
     <dependencies>
-        <!-- Add your dependencies here -->
+        <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>5.10.0</version> <!-- use the latest version -->
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-engine</artifactId>
+        <version>5.10.0</version>
+        <scope>test</scope>
+    </dependency>
     </dependencies>
 </project>
 
